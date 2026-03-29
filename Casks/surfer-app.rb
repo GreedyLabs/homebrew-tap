@@ -1,4 +1,4 @@
-cask "surfer" do
+cask "surfer-app" do
   arch arm: "-arm64", intel: ""
 
   version "1.0.3"

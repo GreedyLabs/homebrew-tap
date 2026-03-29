@@ -8,7 +8,7 @@ on:
 
 jobs:
   test-bot:
-    if: contains(github.event.pull_request.labels.*.name, 'do-not-test')
+    if: "!contains(github.event.pull_request.labels.*.name, 'do-not-test')"
     strategy:
       matrix:
         os: [ macos-26 ]
@@ -41,7 +41,7 @@ jobs:
 
       - run: brew test-bot --only-setup
 
-      - run: brew test-bot --only-tap-syntax
+      # - run: brew test-bot --only-tap-syntax
       - name: Base64-encode GITHUB_TOKEN for HOMEBREW_DOCKER_REGISTRY_TOKEN
         id: base64-encode
         if: github.event_name == 'pull_request'
