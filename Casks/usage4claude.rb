@@ -26,5 +26,6 @@ cask "usage4claude" do
 
       xattr -r -d com.apple.quarantine /Applications/Usage4Claude.app
 
-    with your own risk.  EOS
+    with your own risk.
+  EOS
 end
