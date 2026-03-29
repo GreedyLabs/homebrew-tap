@@ -32,7 +32,9 @@ cask "skitch" do
     <<~EOS
       The application is not signed. Run
 
-        brew install --no-quarantine draftbrew/tap/skitch
+        xattr -r -d com.apple.quarantine /Applications/Skitch.app
+
+      with your own risk.
     EOS
   end
 end

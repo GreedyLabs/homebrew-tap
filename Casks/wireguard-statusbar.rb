@@ -43,6 +43,8 @@ cask "wireguard-statusbar" do
   caveats <<~EOS
     The application is not signed. Run
 
-      brew install --no-quarantine draftbrew/tap/wireguard-statusbar
+      xattr -r -d com.apple.quarantine /Applications/WireGuardStatusbar.app
+
+    with your own risk.
   EOS
 end

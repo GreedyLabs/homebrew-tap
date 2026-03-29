@@ -24,6 +24,7 @@ cask "usage4claude" do
   caveats <<~EOS
     The application is not signed. Run
 
-      brew install --no-quarantine draftbrew/tap/usage4claude
-  EOS
+      xattr -r -d com.apple.quarantine /Applications/Usage4Claude.app
+
+    with your own risk.  EOS
 end

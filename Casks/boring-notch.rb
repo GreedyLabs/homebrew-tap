@@ -25,6 +25,8 @@ cask "boring-notch" do
   caveats <<~EOS
     The application is not signed. Run
 
-      brew install --no-quarantine draftbrew/tap/boring-notch
+      xattr -r -d com.apple.quarantine /Applications/boringNotch.app
+
+    with your own risk.
   EOS
 end

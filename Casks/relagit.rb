@@ -28,6 +28,8 @@ cask "relagit" do
   caveats <<~EOS
     The application is not signed. Run
 
-      brew install --no-quarantine draftbrew/tap/relagit
+      xattr -r -d com.apple.quarantine /Applications/RelaGit.app
+
+    with your own risk.
   EOS
 end
