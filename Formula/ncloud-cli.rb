@@ -14,6 +14,12 @@ class NcloudCli < Formula
     end
   end
 
+  bottle do
+    root_url "https://ghcr.io/v2/greedylabs/tap"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "07b3e7524e5117b22744dbcee93c2574aa3b22b00b9c1ce157380438e2732847"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "0225c0963d15ed90b9c5622132170d7a23f537484f061583bb2a9c3aca539761"
+  end
+
   depends_on "openjdk"
 
   def install
