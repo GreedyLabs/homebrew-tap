@@ -8,9 +8,9 @@ class NcloudCli < Formula
 
   livecheck do
     url "https://cli.ncloud-docs.com/docs/guide-clichange"
-    regex(/CLI[._-]v?(\d+(?:\.\d+)+)[._-](\d{8}).zip/i)
+    regex(/CLI[._-]v?(\d+(?:\.\d+)+)[._-](?:\d{8}).zip/i)
     strategy :page_match do |page, regex|
-      page.scan(regex).map { |match| "#{match[0]}-#{match[1]}" }
+      page.scan(regex).map { |match| match[0] }
     end
   end
 
