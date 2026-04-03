@@ -5,6 +5,12 @@ class WhaleReaper < Formula
   sha256 "047c0771150ba61aaff3e1a00ebe448dc1ab0fc6936134c470244bd8a36bc850"
   license "MIT"
 
+  bottle do
+    root_url "https://ghcr.io/v2/greedylabs/tap"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "9fe13ecf944cb426f752d7c5dfd16f63b5436ac22b7483652981304e2144bf70"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "5a800dbbf939e170d84b707417a91be59c7a5ff8ea28cc059ff229456a6bbc61"
+  end
+
   def install
     bin.install "main.sh" => "whale-reaper"
 
