@@ -1,8 +1,8 @@
 class WhaleReaper < Formula
   desc "Monitor and cut the CPU usage of Whale Helper"
   homepage "https://github.com/daeho-ro/whale-reaper"
-  url "https://github.com/daeho-ro/whale-reaper/archive/refs/tags/v0.1.tar.gz"
-  sha256 "047c0771150ba61aaff3e1a00ebe448dc1ab0fc6936134c470244bd8a36bc850"
+  url "https://github.com/daeho-ro/whale-reaper/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "fece635f72fa6653bfe63d7f0f30d675624ca53e2b8ebe7f330009b548dcfc3d"
   license "MIT"
 
   bottle do
