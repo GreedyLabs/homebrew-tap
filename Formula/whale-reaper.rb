@@ -7,8 +7,8 @@ class WhaleReaper < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/greedylabs/tap"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "563886f8625eecf5ef03b5177d715a040e4cdb7d601b2c2bf362a6dfaf2769c1"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "ef0263a3bbd3fa2fb1f344dbdb0e8722155726cf09970bfe4419b30fde6be540"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "6e3d9891ce298bb9863ad18e3e2cdebc7c5d2b419909960eb93ce4abba5dd38d"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "6fb5b4d0936b3aac9a44d47d43780c927c23fe59447cfee031b06d2cdd35353b"
   end
 
   def install
