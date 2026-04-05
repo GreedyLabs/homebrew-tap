@@ -1,5 +1,5 @@
 cask "seoul-library-viewer" do
-  version "3.0.12"
+  version "3.0.13"
   sha256 :no_check
 
   url "https://elib.seoul.go.kr/Resources/viewer/SEOUL_Viewer_MAC.dmg"
