@@ -7,8 +7,8 @@ class EasCli < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/greedylabs/tap"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "6642b202bece2ec68a780882e2e84533f24a7a1b8045cc59fcd979510dde3d1f"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "10b9bdcdc794029e8275409946437da0709840d11399ec1c778bb2f49ee0a83c"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "ca0e8e1191f1d94647c9ead03b93604ab372e1fbe62bd66358d2aeed01e26216"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "e19125daed1c8ad973e7cf60c6b811827f0f90d5dd73a7e3100c1272717b8841"
   end
 
   depends_on "node"
