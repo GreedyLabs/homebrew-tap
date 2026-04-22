@@ -12,6 +12,7 @@ cask "claude-usage-tracker" do
     strategy :github_latest
   end
 
+  auto_updates true
   depends_on macos: ">= :sonoma"
 
   app "Claude Usage.app"
