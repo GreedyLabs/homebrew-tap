@@ -5,6 +5,12 @@ class Tinyxml < Formula
   sha256 "15bdfdcec58a7da30adc87ac2b078e4417dbe5392f3afb719f9ba6d062645593"
   license "Zlib"
 
+  bottle do
+    root_url "https://ghcr.io/v2/greedylabs/tap"
+    sha256 cellar: :any,                 arm64_tahoe:  "0b7d29233a1c162362fecb21c90752c50f9d80f2460d0b3a23847dfef10c9e5f"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "cf3054b91520e7d5b61a4f5af2d8585daa578f2a8202c8a681b5f61f3b0a651e"
+  end
+
   depends_on "cmake" => :build
 
   # The first two patches are taken from the debian packaging of tinyxml.
