@@ -5,6 +5,12 @@ class GranterCli < Formula
   sha256 "501441e55ccbe337bb0e6760c2c79a4c125709e813cdd1d6269718e587fe01f2"
   license "MIT"
 
+  bottle do
+    root_url "https://ghcr.io/v2/greedylabs/tap"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "e4dcf16209109eea00a293571349705d4118f98bfa1fb92178bbd26c62eb57e4"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "d7b9a6abe7494765448565ac7972f0fbd9db0dc4a1893f452b7d2be7ddf21a77"
+  end
+
   depends_on "node"
 
   def install
