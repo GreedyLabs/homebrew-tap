@@ -1,9 +1,9 @@
 cask "relagit" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.16.10"
-  sha256 arm:   "300a2189c795a4d6b8288b523880e853499d7bf50ba95d9d60807968f410aebb",
-         intel: "426be23bb09bea8880858ebb00fe9fe52227b72c7b43421f45760d39afd8fcea"
+  version "0.16.11"
+  sha256 arm:   "8e1e86ddc2679e0b03500380a5729f097ac7252b2d4eb7324d1e9d91fb6a3f66",
+         intel: "57efb58a7ab46d6566eb8769438a75655db372eed5a55ada661ecb6e0ce56c4c"
 
   url "https://github.com/relagit/relagit/releases/download/v#{version}/RelaGit-mac-#{arch}.dmg",
       verified: "github.com/relagit/relagit/"
@@ -15,6 +15,8 @@ cask "relagit" do
     url :url
     strategy :github_latest
   end
+
+  depends_on macos: ">= :monterey"
 
   app "RelaGit.app"
 
