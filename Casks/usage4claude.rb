@@ -1,6 +1,6 @@
 cask "usage4claude" do
-  version "2.6.1"
-  sha256 "6faf0ed2507b442e5309a6475dc5d66ead6464f731119ed3df91dd9a3a18a013"
+  version "3.0.0"
+  sha256 "81ba407aa78e430e99d454439e8b3fff964ab40f225bd7774ba70a48f56be2f2"
 
   url "https://github.com/f-is-h/Usage4Claude/releases/download/v#{version}/Usage4Claude-v#{version}.dmg"
   name "Usage4Claude"
