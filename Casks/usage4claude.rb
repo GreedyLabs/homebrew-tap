@@ -1,6 +1,6 @@
 cask "usage4claude" do
-  version "3.0.0"
-  sha256 "81ba407aa78e430e99d454439e8b3fff964ab40f225bd7774ba70a48f56be2f2"
+  version "3.1.0"
+  sha256 "aab4ecae1c501350cecdc3b18c7610e64d32f61d2f6585fd178aa4824d5d641a"
 
   url "https://github.com/f-is-h/Usage4Claude/releases/download/v#{version}/Usage4Claude-v#{version}.dmg"
   name "Usage4Claude"
@@ -12,7 +12,7 @@ cask "usage4claude" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Usage4Claude.app"
 
