@@ -12,7 +12,7 @@ cask "seoul-library-viewer" do
     strategy :extract_plist
   end
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "서울도서관 전자책 뷰어.app"
 

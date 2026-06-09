@@ -25,6 +25,7 @@ cask "wireguard-statusbar" do
   end
 
   depends_on formula: "wireguard-tools"
+  depends_on :macos
 
   app "WireGuardStatusbar.app"
 

@@ -8,7 +8,7 @@ cask "co-molib" do
   desc "Developer productivity timer and app usage tracker"
   homepage "https://www.co-molib.com/"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Comolib.app"
 

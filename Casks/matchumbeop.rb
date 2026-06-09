@@ -7,7 +7,7 @@ cask "matchumbeop" do
   desc "Korean Spell Checker"
   homepage "https://github.com/ssut/Matchumbeop"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Matchumbeop.app"
 

@@ -12,6 +12,8 @@ cask "space-cadet-pinball" do
     strategy :github_latest
   end
 
+  depends_on :macos
+
   app "SpaceCadetPinball.app"
 
   zap trash: "~/Library/Application Support/SpaceCadetPinball/"
