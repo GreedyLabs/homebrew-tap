@@ -7,8 +7,8 @@ class GranterCli < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/greedylabs/tap"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "8516ea7a57fd84cece8dbf9b10c47aae74612623a422fac0a5ae38552bf67c43"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "61acb043710b895f762e3a0330f7dc52af4cf2bac283ff6acfc36e5b9c37ede1"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "19231ed430a4b7521280b104f94c93b620179d55000b1a9568210c623e7be151"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "2bd095c1337ec4ec1ff8d36c56130dadd965ae7c352cd285e41d795eb38ab937"
   end
 
   depends_on "node"
