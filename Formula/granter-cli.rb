@@ -1,8 +1,8 @@
 class GranterCli < Formula
   desc "Granter command-line tool"
   homepage "https://github.com/granter-biz"
-  url "https://registry.npmjs.org/@granter-biz/cli/-/cli-0.4.0.tgz"
-  sha256 "5f5274fda9e4b842cfae85cd427deb0bef8a9790c35aae92527d7cf2e841c470"
+  url "https://registry.npmjs.org/@granter-biz/cli/-/cli-0.5.1.tgz"
+  sha256 "a708f903c505faa1cb2eb510d57afc4b9a40245a1f71d6821b00dcbcded60a3b"
   license "MIT"
 
   bottle do
