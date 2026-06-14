@@ -1,3 +1,4 @@
 {
+  "eas-cli": "homebrew/core/eas-cli",
   "qgis@nightly": "homebrew/cask/qgis"
 }
